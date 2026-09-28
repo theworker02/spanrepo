@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/spanrepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Span digests and repo fingerprints for local integrity checks.",
+  "bin": {
+    "spanrepo": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/spanrepo.git"
+  },
+  "homepage": "https://theworker02.github.io/spanrepo/",
+  "keywords": [
+    "span",
+    "repo",
+    "hash",
+    "cli",
+    "toolkit"
+  ]
+}
